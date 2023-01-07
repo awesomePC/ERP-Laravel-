@@ -1,0 +1,25 @@
+{
+    "name": "twf/repair",
+    "description": "",
+    "authors": [
+        {
+            "name": "The Web Fosters",
+            "email": "thewebfosters@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Repair\\Providers\\RepairServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Repair\\": ""
+        }
+    }
+}

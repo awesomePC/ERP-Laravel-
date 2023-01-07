@@ -1,0 +1,25 @@
+{
+    "name": "twf/assetmanagement",
+    "description": "",
+    "authors": [
+        {
+            "name": "The Web Fosters",
+            "email": "thewebfosters@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AssetManagement\\Providers\\AssetManagementServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AssetManagement\\": ""
+        }
+    }
+}

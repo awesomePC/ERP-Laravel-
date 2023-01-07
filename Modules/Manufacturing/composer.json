@@ -1,0 +1,25 @@
+{
+    "name": "twf/manufacturing",
+    "description": "",
+    "authors": [
+        {
+            "name": "The Web Fosters",
+            "email": "thewebfosters@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Manufacturing\\Providers\\ManufacturingServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Manufacturing\\": ""
+        }
+    }
+}

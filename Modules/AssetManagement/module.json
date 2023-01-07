@@ -1,0 +1,16 @@
+{
+    "name": "AssetManagement",
+    "alias": "assetmanagement",
+    "description": "Useful for managing all kinds of assets.",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\AssetManagement\\Providers\\AssetManagementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

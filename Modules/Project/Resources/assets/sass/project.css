@@ -1,0 +1,45 @@
+/* Project Module */
+.mb-2{
+  margin: 2px;
+}
+
+.task_description {
+  width:100%;
+  max-height: 500px;
+  height: auto;
+  overflow: auto;
+}
+
+.text-black {
+  color: #333;
+}
+
+.timeline-body-custom-color {
+  background-color: #ECF0F5;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+/*
+invoice line bg
+*/
+.il-bg:nth-child(odd) {
+  background: #d2d6de;
+}
+.il-bg:nth-child(even) {
+  background: #d2d6de;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mt-10{
+  margin-top:10px;
+}
+.mr-16{
+  margin-right: 16px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}

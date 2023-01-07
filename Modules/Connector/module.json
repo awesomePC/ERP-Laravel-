@@ -1,0 +1,16 @@
+{
+    "name": "Connector",
+    "alias": "connector",
+    "description": "Provide the API's for POS",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Connector\\Providers\\ConnectorServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

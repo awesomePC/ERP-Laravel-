@@ -1,0 +1,16 @@
+{
+    "name": "Essentials",
+    "alias": "essentials",
+    "description": "Some essentials functionality for every businesses & Human resource management (HRM) feature.",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Essentials\\Providers\\EssentialsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

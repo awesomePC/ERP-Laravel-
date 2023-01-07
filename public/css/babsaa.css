@@ -1,0 +1,409 @@
+/*
+Name: Custom CSS
+Author: Trixo Lab
+Description: Custom CSS for Babsaa.com
+Version: v1.0.1
+
+*/
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Core CSS */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.skin-black .main-header > .logo{
+    background: #171717 !important;
+}
+
+.skin-black .content-wrapper .content-custom, 
+.skin-black-light .content-wrapper .content-custom {
+    margin-top: -210px;
+    background-color: #171717 !important;
+}
+
+.skin-black .main-sidebar {
+    background-color: #171717 !important;
+    box-shadow: none !important;
+    border-right: 2px solid #000 !important;
+}
+
+.skin-black .main-header .navbar, 
+.skin-black-light .main-header .navbar {
+    background-color: #171717 !important;
+}
+
+.skin-black .content-wrapper .content-header-custom, 
+.skin-black-light .content-wrapper .content-header-custom {
+    background-color: #171717 !important;
+    color: #fff !important;
+}
+
+.skin-black .sidebar-menu > li.active > a {
+    border-left-color: #DA0037;
+}
+
+.skin-black .sidebar-menu>li.active>a, 
+.skin-black .sidebar-menu>li.menu-open>a, 
+.skin-black .sidebar-menu>li:hover>a {
+    color: #DA0037 !important;
+    background-color: #EDEDED !important;
+}
+
+.skin-black .sidebar-menu>li>.treeview-menu {
+    background: #171717 !important;
+}
+
+.skin-black .sidebar-menu>li>.treeview-menu li:hover a{
+    padding-left: 35px !important;
+}
+
+.skin-black .sidebar a {
+    color: #EDEDED !important;
+}
+
+
+
+
+
+.skin-black .navbar-custom-menu .btn-success,
+.skin-black-light .navbar-custom-menu .btn-success{
+    background-color: #EDEDED !important;
+    border-color: #EDEDED !important;
+    color: #171717 !important;
+}
+
+.skin-black .navbar-custom-menu .btn-success i,
+.skin-black-light .navbar-custom-menu .btn-success i {
+    color: #171717 !important;
+}
+
+.skin-black .box {
+    background: #171717;
+    color: #ededed !important;
+}
+
+
+.skin-black .table {
+    background: #171717;
+    color: #ededed;
+    border: 1px solid #ededed !important;
+}
+
+rect['fill'] {
+    background: #171717 !important;
+}
+
+.skin-black .content-wrapper {
+    background-color: #171717;
+}
+
+.skin-black div.dataTables_wrapper div.dataTables_info {
+    color: #ededed;
+}
+
+.skin-black div.dataTables_wrapper div.dataTables_length label {
+    color: #ededed;
+}
+
+.skin-black .content-header>h1 {
+    color: #ededed;
+}
+
+.skin-black .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #171717;
+}
+
+.skin-black div.dataTables_wrapper div.dataTables_filter input {
+    background: #000000;
+    padding: 15px;
+    border-color: #EEEEEE;
+}
+
+.skin-black div.dataTables_wrapper div.dataTables_filter input:focus{
+    background-color: #171717;
+    color: #ededed;
+}
+
+.skin-black .main-footer {
+    background: #171717;
+    color: #ededed;
+}
+
+.skin-black .pagination>.active>a, .skin-black .pagination>.active>a:focus, .skin-black .pagination>.active>a:hover, .skin-black .pagination>.active>span, .skin-black .pagination>.active>span:focus, .skin-black .pagination>.active>span:hover {
+    background-color: #DA0037;
+    border-color: #DA0037;
+}
+
+.skin-black label {
+    color: #ededed;
+}
+
+
+
+.skin-black .icheckbox_square-blue:hover, .skin-black .iradio_square-blue:hover{
+    border-color: #DA0037;
+} 
+
+
+.skin-black .form-control {
+    border-color: #ededed;
+    background: #171717 !important;
+    color: #ededed !important;
+}
+
+.skin-black .select2-container--default .select2-selection--single, .skin-black .select2-selection .select2-selection--single {
+    background: #171717 !important;
+    border-color: #ededed !important;
+}
+
+.skin-black .nav-tabs-custom>.tab-content {
+    background: #171717;
+    padding: 10px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: #ededed;
+}
+
+
+.skin-black .list-group-unbordered>.list-group-item{
+    background: #171717;
+    height: 60px !important;
+}
+
+.skin-black .list-group-unbordered>.list-group-item a {
+    color: #ededed;
+}
+
+.skin-black .nav-tabs-custom>.nav-tabs>li>a, .skin-black .nav-tabs-custom>.nav-tabs>li>a {
+    background-color: #000000;
+    color: #ededed;
+}
+
+.skin-black .nav-tabs-custom>.nav-tabs>li {
+    border-color: #DA0037;
+}
+
+.skin-black .nav-tabs-custom>.nav-tabs>li a{
+    border-color: transparent;
+}
+
+.skin-black .nav-tabs-custom>.nav-tabs>li:hover,
+.skin-black .nav-tabs-custom>.nav-tabs>li>a:hover{
+    background: #000000;
+}
+
+.skin-black .nav-tabs-custom>.nav-tabs>li.active:hover>a, .skin-black .nav-tabs-custom>.nav-tabs>li.active>a {
+    background-color: #000000;
+    color: #ededed;
+    border-color: transparent;
+}
+
+.nav-tabs-custom {
+    border-radius: 5px !important;
+    overflow: hidden;
+}
+
+.skin-black .modal-content {
+    background: #171717;
+    border-radius: 5px;
+}
+
+.skin-black .modal-header button {
+    color: #ededed !important;
+}
+
+.skin-color .modal-footer {
+    padding: 5px 15px 15px 15px;
+    border-top: 1px solid #171717 !important;
+}
+
+.skin-black div#more_div {
+    color: #ededed;
+}
+
+.skin-black input#document{
+    color: #ededed;
+}
+
+.skin-black .text-muted{
+    color: #ededed;
+}
+
+.skin-black label.btn.btn-default {
+    background: #DA0037;
+    border-color: #DA0037;
+}
+    
+.skin-black label.btn.btn-default:hover{
+    background: #DA0037;
+}
+
+.skin-black .btn-default.active.focus, .skin-black .btn-default.active:focus, .skin-black .btn-default.active:hover, .skin-black .btn-default:active.focus, .skin-black .btn-default:active:focus, .skin-black .btn-default:active:hover, .skin-black .open>.dropdown-toggle.btn-default.focus, .skin-black .open>.dropdown-toggle.btn-default:focus, .skin-black .open>.dropdown-toggle.btn-default:hover {
+    background-color: #DA0037 !important;
+    border-color: #DA0037 !important;
+}
+
+.skin-black .bg-green {background: red !important;}
+
+.skin-black .bg-gray td {background: #171717;}
+
+.skin-black .invoice-col {color: #ededed;}
+
+.skin-black .tox .tox-menubar {
+    background-color: #000;
+}
+
+.skin-black.tox .tox-mbtn,
+.skin-black .tox .tox-tbtn {
+    color: #ffffff;
+}
+
+.skin-black .tox .tox-toolbar, .tox .tox-toolbar__overflow, .tox .tox-toolbar__primary {
+    background-color: #000;
+}
+
+.skin-black span.tox-icon.tox-tbtn__icon-wrap {
+    color: red;
+    background: red;
+}
+
+.skin-black .tox .tox-statusbar {
+    display: none;
+}
+
+.skin-black .help-block {
+    color: #ffffff;
+}
+
+.skin-black .nav-tabs-custom {
+    background: #171717 !important;
+}
+
+.skin-black .nav-tabs {
+    border-bottom: 1px solid #000000 !important;
+}
+
+.info-box-new-style .info-box-icon {
+    border-radius: 10px !important;
+}
+
+.skin-black .bg-gray td {
+    color: white !important;
+}
+
+
+
+
+.sidebar-menu>li>.treeview-menu li:hover a{
+    padding-left: 35px !important;
+}
+
+
+.sidebar-menu>li>.treeview-menu li:hover a{
+    padding-left: 35px !important;
+}
+  
+  
+
+  
+.left-col {
+  background-color: white; 
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  
+  /*   background: linear-gradient(0deg,rgba(0, 0, 0, 0.76),rgba(51, 51, 51, 0.32)),url(../img/background.png);  */
+}
+.left-col-content {
+  color: #1A7BF9;
+  width: 100%;
+}
+.login-header {
+  font-size: 27px;
+  font-weight: 600;
+}
+.login-header a  {
+  color: #fff;
+}
+
+.mother-content-position{
+  position: fixed;
+  bottom: 8px;
+  left: 16px;
+}
+
+.mother-content{
+
+
+  color: black !important;
+  font-size: 10px;
+}
+
+.form-header {
+  font-size: 18px;
+  margin: 16px 0;
+}
+.btn-login {
+  padding: 6px 52px !important;
+}
+.right-col {
+  background-color: black;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.right-col label {
+  color: #fff;
+}
+
+.right-col a, .text-white a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px
+}
+.right-col a:hover, .text-white a:hover {
+  color: #ccc;
+}
+.right-col-content {
+  padding: 10% 16%;
+  padding-bottom: 3%;
+}
+.right-col-content-register {
+  padding: 2% 8%;
+}
+  
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>img {
+   	max-height: 100%;
+    width: 140px !important;
+}
+
+.main-header .logo {
+    padding: 0 !important;
+}
+
+.main-header .logo img {
+    padding-bottom: 1px !important;
+}
+
+.main-header .logo img {
+    padding: 0 !important;
+}
+
+.left-col {
+    background: none;
+}
+
+.small {
+    display: none !important;
+  	visibility: hidden;
+}
+
+.mother-content-position {
+    font-size: .4em;
+    color: #222;
+}
+

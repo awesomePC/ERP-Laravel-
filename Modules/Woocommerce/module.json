@@ -1,0 +1,16 @@
+{
+    "name": "Woocommerce",
+    "alias": "woocommerce",
+    "description": "Allows you to connect POS with WooCommerce website.",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Woocommerce\\Providers\\WoocommerceServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

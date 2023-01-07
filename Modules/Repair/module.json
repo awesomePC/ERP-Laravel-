@@ -1,0 +1,16 @@
+{
+    "name": "Repair",
+    "alias": "repair",
+    "description": "Useful for all kind of repair shops",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Repair\\Providers\\RepairServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
